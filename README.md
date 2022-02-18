@@ -9,14 +9,31 @@ npm run dev
 # or
 yarn dev
 ```
+## Scenario
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You've built a finance calculator to help users undertstand what their monthly repayments will be, with a given loan amount, and duration set by the user.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Excercises
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+We don't expect full completion on every one of these excercises, this is primarily to get an idea of your approach. There's some ambiguity within the test, so please don't hesistate to ask us any questions during the excercise too.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 1: Style the component
+
+We've put an image in the `/assets` folder for inspiration/guidance.
+You can use either CSS or SCSS.
+
+### 2: Fix the issue reported by the failing test
+
+Running the tests inside the `api` subfolder using `yarn test` should result in one test failing. You'll need to fix the issue.
+
+### 3: Add interest
+
+The calculator is currently set up to simply divide the total loan amount by the number of months. This task will involve adding a yearly interest of 5%. You'll also need to update the tests.
+
+### 4: What next?
+
+What features would you add to the calculator next? What's missing? What would you do to update the quality of the software?
+
 
 ## Learn More
 
